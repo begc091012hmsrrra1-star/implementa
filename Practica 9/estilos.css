@@ -1,0 +1,50 @@
+/* estilos.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button, a {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-verde {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-rojo {
+  background-color: #e53935;
+  color: white;
+}
+
+.btn-azul {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-icono {
+  background-color: #555;
+  color: white;
+}
+
+.btn-verde:hover,
+.btn-rojo:hover,
+.btn-azul:hover,
+.btn-icono:hover {
+  opacity: 0.8;
+}

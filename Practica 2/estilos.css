@@ -1,0 +1,38 @@
+body{
+    background:#f9f9f9;
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.tarjeta{
+    background:#fff;
+    width:300px;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+
+.tarjeta img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.tarjeta h2{
+    margin:10px 0;
+    color:#333;
+    font-size:22px;
+}
+
+.tarjeta p{
+    font-size:16px;
+    color:#555;
+    line-height:1.4;
+}
